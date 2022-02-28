@@ -3,38 +3,585 @@
     {
       "id": 1,
       "prompt": "What special prop should always be included for lists of elements?",
-      "answers": ["id", "name", "key", "prop"],
+      "answers": [
+        "id",
+        "name",
+        "key",
+        "prop"
+      ],
       "correctIndex": 2
     },
     {
       "id": 2,
       "prompt": "A React component is a function that returns ______.",
-      "answers": ["HTML", "JSX", "props", "state"],
+      "answers": [
+        "HTML",
+        "JSX",
+        "props",
+        "state"
+      ],
       "correctIndex": 1
     },
     {
       "id": 3,
       "prompt": "Which event handler will run when a user is finished filling out a form?",
-      "answers": ["onSubmit", "onClick", "onChange", "onForm"],
+      "answers": [
+        "onSubmit",
+        "onClick",
+        "onChange",
+        "onForm"
+      ],
       "correctIndex": 0
     },
     {
       "id": 4,
       "prompt": "______ is a tool that transpiles JSX into valid JavaScript.",
-      "answers": ["React", "Babel", "Webpack", "ES6"],
+      "answers": [
+        "React",
+        "Babel",
+        "Webpack",
+        "ES6"
+      ],
       "correctIndex": 1
     },
     {
       "id": 5,
       "prompt": "What syntax makes it possible to unpack values from arrays, or properties from objects, into distinct variables?",
-      "answers": ["spread", "key-value", "coalescing", "destructuring"],
+      "answers": [
+        "spread",
+        "key-value",
+        "coalescing",
+        "destructuring"
+      ],
       "correctIndex": 3
     },
     {
       "id": 6,
       "prompt": "Returning different elements from a component depending on the state of your application is known as _____ rendering.",
-      "answers": ["voodoo", "conditional", "reactive", "controlled"],
+      "answers": [
+        "voodoo",
+        "conditional",
+        "reactive",
+        "controlled"
+      ],
       "correctIndex": 1
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "32",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 20
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 21
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "2",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 22
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "22",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 23
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "222",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 24
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "222",
+        "3"
+      ],
+      "correctIndex": 0,
+      "id": 25
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "222",
+        "33"
+      ],
+      "correctIndex": 0,
+      "id": 26
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 28
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 29
+    },
+    {
+      "prompt": "g",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 30
+    },
+    {
+      "prompt": "ge",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 31
+    },
+    {
+      "prompt": "ger",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 32
+    },
+    {
+      "prompt": "gerr",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 33
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 34
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "1",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 35
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "12",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 36
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 37
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "3",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 38
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "32",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 39
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 40
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "1",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 41
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "11",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 42
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "111",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 43
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "1112",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 44
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "1112",
+        "2"
+      ],
+      "correctIndex": 0,
+      "id": 45
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "1112",
+        "22"
+      ],
+      "correctIndex": 0,
+      "id": 46
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "1112",
+        "222"
+      ],
+      "correctIndex": 0,
+      "id": 47
+    },
+    {
+      "prompt": "gerry",
+      "answers": [
+        "123",
+        "321",
+        "1112",
+        "222"
+      ],
+      "correctIndex": 0,
+      "id": 48
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 49
+    },
+    {
+      "prompt": "1",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 50
+    },
+    {
+      "prompt": "11",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 51
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 52
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "1",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 53
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "11",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 54
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "111",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 55
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "111",
+        "1",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 56
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "111",
+        "11",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 57
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "111",
+        "112",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 58
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "111",
+        "1122",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 59
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "111",
+        "1122",
+        "3",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 60
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "111",
+        "1122",
+        "33",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 61
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "111",
+        "1122",
+        "333",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 62
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "111",
+        "1122",
+        "333",
+        "4"
+      ],
+      "correctIndex": 0,
+      "id": 63
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "111",
+        "1122",
+        "333",
+        "43"
+      ],
+      "correctIndex": 0,
+      "id": 64
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "111",
+        "1122",
+        "333",
+        "434"
+      ],
+      "correctIndex": 0,
+      "id": 65
+    },
+    {
+      "prompt": "111",
+      "answers": [
+        "111",
+        "1122",
+        "333",
+        "4344"
+      ],
+      "correctIndex": 0,
+      "id": 66
+    },
+    {
+      "prompt": "fweey",
+      "answers": [
+        "`123",
+        "321",
+        "11",
+        "12345"
+      ],
+      "correctIndex": 0,
+      "id": 67
     }
   ]
 }
