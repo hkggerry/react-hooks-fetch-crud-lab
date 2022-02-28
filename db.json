@@ -347,17 +347,6 @@
         "123",
         "321",
         "1112",
-        "22"
-      ],
-      "correctIndex": 0,
-      "id": 46
-    },
-    {
-      "prompt": "gerry",
-      "answers": [
-        "123",
-        "321",
-        "1112",
         "222"
       ],
       "correctIndex": 0,
@@ -573,12 +562,12 @@
       "id": 66
     },
     {
-      "prompt": "fweey",
+      "prompt": "new",
       "answers": [
-        "`123",
-        "321",
-        "11",
-        "12345"
+        "new1",
+        "new2",
+        "new3",
+        "new4"
       ],
       "correctIndex": 0,
       "id": 67
