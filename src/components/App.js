@@ -22,18 +22,25 @@ function App() {
 
 
   function handleDeleteItem(id){
+    console.log(id)
     const updatedQuestion = question.filter((item) => item.id !== id);
       setQuestions(updatedQuestion);
   }
   
+  function updateAnswer(id, answered){
+    const updatedQuestion = question.map(question => {
+      if (question.id === id){
+        return {...question, answered}
+      }else {
+        return question
+      }
+    })
+  }
 
   return (
     <main>
       <AdminNavBar onChangePage={setPage} />
-      {page === "Form" ? <QuestionForm /> : <QuestionList 
-      question={question} 
-      handleDeleteItem={handleDeleteItem} 
-      addQuestion={addQuestion}/>}
+      {page === "Form" ? <QuestionForm addQuestion={addQuestion}/> : <QuestionList question={question} updateAnswer= {updateAnswer} handleDeleteItem={handleDeleteItem}/>}
     </main>
   );
 }
